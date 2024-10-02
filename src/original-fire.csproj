@@ -17,6 +17,11 @@
     <Authors>LANDIS-II Foundation</Authors>
     <Company>LANDIS-II Foundation</Company>
     <Description>Extension that uses the original fire algorithms</Description>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\Core-Model-v8-LINUX\build\extensions</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
