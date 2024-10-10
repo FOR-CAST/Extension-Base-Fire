@@ -17,6 +17,7 @@
     <Authors>LANDIS-II Foundation</Authors>
     <Company>LANDIS-II Foundation</Company>
     <Description>Extension that uses the original fire algorithms</Description>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
